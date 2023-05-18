@@ -1,0 +1,41 @@
+:root {
+  --primart-color: #7161f0;
+  --secondary-color: #bdd359;
+  --accent-color: #b79cee;
+}
+
+body {
+  background: #fff1eb;
+}
+
+h1 {
+  color: var(--primart-color);
+  text-align: center;
+  padding: 20px;
+}
+
+p {
+  text-align: center;
+}
+
+.navigation-links {
+  text-align: center;
+  margin: 0 10px;
+  font-size: 24px;
+  background: var(--secondary-color);
+  padding: 10px;
+}
+
+.navigation-links a {
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.chika {
+  max-width: 100%;
+  display: block;
+  margin: 30px auto;
+}
