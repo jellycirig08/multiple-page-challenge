@@ -12,10 +12,23 @@ h1 {
   color: var(--primart-color);
   text-align: center;
   padding: 20px;
+  font-size: 40px;
 }
 
+h2 {
+  text-align: center;
+  color: #bdd359;
+  background-color: black;
+  width: 130px;
+  padding: 15px;
+}
 p {
   text-align: center;
+}
+
+img {
+  margin: 70px;
+  justify-content: center;
 }
 
 .navigation-links {
@@ -38,4 +51,8 @@ p {
   max-width: 100%;
   display: block;
   margin: 30px auto;
+}
+
+a:hover {
+  color: var(--accent-color);
 }
